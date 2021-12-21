@@ -232,12 +232,12 @@ footer .info__section ul {
 
 footer .info__section .info__section_left {
   justify-content: flex-start;
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
 footer .info__section .info__section_right {
   justify-content: flex-end;
-  margin-right: 30px;
+  margin-right: 60px;
 }
 
 footer .info__section ul li {
