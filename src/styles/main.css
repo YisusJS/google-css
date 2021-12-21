@@ -126,7 +126,7 @@ main .main__input {
 }
 
 main .main__input:hover {
-  box-shadow: 0px 0px 10px 1px rgb(226, 225, 225);
+  box-shadow: 0px 0px 10px 1px #dfe1e5;
 }
 
 main .main__input > div {
@@ -140,7 +140,7 @@ main .main__input > div {
 main .main__input > div > span {
   margin-left: 15px;
   font-size: 18px;
-  color: rgb(165, 161, 161);
+  color: #dfe1e5;
 }
 
 main .main__input > div > a {
@@ -149,6 +149,7 @@ main .main__input > div > a {
 
 main .main__input > div > input {
   width: 80%;
+  font-size: 16px;
   height: 44px;
   outline: none;
   border: none;
