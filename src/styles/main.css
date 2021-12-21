@@ -113,7 +113,7 @@ main {
 }
 
 main .main__logo {
-  margin-top: 100px;
+  margin-top: 10vh;
 }
 
 main .main__input {
@@ -126,7 +126,7 @@ main .main__input {
 }
 
 main .main__input:hover {
-  box-shadow: 0px 0px 10px 1px #dfe1e5;
+  box-shadow: 0px 0px 10px 2px #dfe1e5;
 }
 
 main .main__input > div {
@@ -140,7 +140,8 @@ main .main__input > div {
 main .main__input > div > span {
   margin-left: 15px;
   font-size: 18px;
-  color: #dfe1e5;
+  color: #000000;
+  opacity: 0.4;
 }
 
 main .main__input > div > a {
@@ -157,4 +158,34 @@ main .main__input > div > input {
 
 main .main__input > div > input:focus {
   outline: none;
+}
+
+main .main__buttons {
+  width: 582px;
+  margin: 0 auto;
+}
+
+main .main__buttons button {
+  height: 40px;
+  padding: 15px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  color: rgb(60, 64, 67);
+  background-color: rgb(248, 249, 250);
+  margin-bottom: 20px;
+}
+
+main .main__buttons button:hover {
+  box-shadow: 0px 1px 1px 1px #dfe1e5;
+}
+
+main .main__buttons > span {
+  font-size: 12px;
+  color: #494b47;
+}
+
+main .main__buttons > span > a:hover {
+  text-decoration: underline;
 }
