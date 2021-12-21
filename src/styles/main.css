@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.4rem;
+}
+
+a,
+button {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+header {
+  width: 100vw;
+  height: 60px;
+}
+
+header nav {
+  height: inherit;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header nav .nav-right-section {
+  width: 250px;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+nav .nav-right-section li a {
+  font-size: 1.3rem;
+  margin-right: 10px;
+  color: #000000de;
+}
+
+nav .nav-right-section li a:hover {
+  text-decoration: underline;
+}
+
+nav .nav-right-section li a .menu-icon {
+  width: 24px;
+  fill: #5f6368;
+  margin: 0 10px;
+}
+
+nav .nav-right-section li a .menu-icon:hover {
+  background: #f2f5f0;
+  border-radius: 100%;
+  box-shadow: 0px 0px 1px 8px #f2f5f0;
+}
+
+nav .nav-right-section li button {
+  min-width: 100px;
+  height: 36px;
+  color: #ffffff;
+  margin-right: 40px;
+  background: #1a73e8;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid #4285f4;
+  font-size: 1.4rem;
+}
+
+nav .nav-right-section li button:hover {
+  background: -webkit-linear-gradient(top, #4387fd, #4683ea);
+}
