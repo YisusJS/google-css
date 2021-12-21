@@ -67,7 +67,7 @@ nav .nav-right-section li a .menu-icon:hover {
 }
 
 /* Hidde google apps message */
-nav .nav-right-section li a + span {
+nav .nav-right-section li > .google-apps {
   opacity: 0;
   position: absolute;
   background: #494b47;
