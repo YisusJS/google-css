@@ -131,7 +131,7 @@ main .main__input:hover {
 
 main .main__input > div {
   text-align: center;
-  width: auto;
+  max-width: 582px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -166,11 +166,12 @@ main .main__buttons {
 }
 
 main .main__buttons button {
+  border: 1px solid rgb(248, 249, 250);
   height: 40px;
   padding: 15px;
   margin: 0 5px;
-  border: none;
   border-radius: 5px;
+  line-height: 10px;
   font-size: 14px;
   color: rgb(60, 64, 67);
   background-color: rgb(248, 249, 250);
@@ -178,7 +179,10 @@ main .main__buttons button {
 }
 
 main .main__buttons button:hover {
-  box-shadow: 0px 1px 1px 1px #dfe1e5;
+  border: 1px solid #c6c6c6;
+  box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
+  color: #222;
+  background-color: #f8f8f8;
 }
 
 main .main__buttons > span {
@@ -188,4 +192,54 @@ main .main__buttons > span {
 
 main .main__buttons > span > a:hover {
   text-decoration: underline;
+}
+
+footer {
+  width: 100vw;
+  height: 95;
+  position: absolute;
+  bottom: 0;
+  color: #757779;
+}
+
+footer .country__section, footer .info__section {
+  align-items: center;
+  width: 100vw;
+  height: 46.5px;
+  background-color: #f2f2f2;
+}
+
+footer .country__section {
+  line-height: 50px;
+}
+
+footer .country__section span {
+  margin-left: 25px;
+}
+
+footer .info__section {
+  border-top: 1px solid #dadce0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  font-size: 14px;
+}
+
+footer .info__section ul {
+  display: flex;
+  list-style: none;
+}
+
+footer .info__section .info__section_left {
+  justify-content: flex-start;
+  margin-left: 30px;
+}
+
+footer .info__section .info__section_right {
+  justify-content: flex-end;
+  margin-right: 30px;
+}
+
+footer .info__section ul li {
+  margin: 7px;
 }
